@@ -24,12 +24,15 @@ So in this task, data that I took is the duration of the person in the office.
 
 After the data was successfully downloaded, I used the existing lifeness library to implement the Kaplan-Meier estimator on the data I downloaded.
 The results of the model I made can be seen in the plot below. As you can see, this plot shows the probability that a person will be in a managerial position for a certain number of years (y-axis - probability, x - number of years in office)
-(plot)
+
+<img src="https://github.com/YaroslavBoiko/Algorithms_of_business_decision_2/blob/master/plots/4.png" width="250" height="250">
 
 
 After successfully testing the Kaplan-Meier estimator, I tested the COX estimator, for which I also chose the lifeness library. But the data, I chose others -data on the crime in a particular week. A number of visualizations were also performed to understand the results.
 
+<img src="https://github.com/YaroslavBoiko/Algorithms_of_business_decision_2/blob/master/plots/2.png" width="250" height="250">, <img src="https://github.com/YaroslavBoiko/Algorithms_of_business_decision_2/blob/master/plots/3.png" width="250" height="250">
+
 I was also interested to see the difference between KM estimator and Cox estimators, so I used KM estimation for the second dataset (survival date, which I used for COX estimation).
 In conclusion, Cox estimator is more optimistic in its forecasts (which is reflected in the assessment of the probability of incidents per week)
 
-![alt text](https://drive.google.com/file/d/1smW4bb6Hm75mnUvtFeNiUulYLXdr9x3m/view?usp=sharing)
+<img src="https://github.com/YaroslavBoiko/Algorithms_of_business_decision_2/blob/master/plots/1.png" width="250" height="250">, <img src="https://github.com/YaroslavBoiko/Algorithms_of_business_decision_2/blob/master/plots/2.png" width="250" height="250">
